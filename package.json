@@ -1,0 +1,21 @@
+{
+  "name": "proactive-message-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+        "node": ">=6.9.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+  "repository": {
+    "type": "git"
+  },
+  
+  "author": "Chitrang Thakkar",
+
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "restify": "^4.3.0"
+  }
+}
