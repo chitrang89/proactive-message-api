@@ -1,6 +1,6 @@
 # proactive-message-api
 
-Sample Api based on Nodejs to let users POST an address+message to update a specific conversation of Microsoft Bot Framework. 
+Api based on Nodejs to let users POST an address+message to update a specific conversation of Microsoft Bot Framework. 
 
 How To
 
