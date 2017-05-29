@@ -12,10 +12,10 @@ var connector = new builder.ChatConnector({
   appPassword: '{YOURAPPPWD}'
 });
 ```
+2. Run ```npm install``` to install all node modules.
+3. Run ```node index.js``` to host the Api.
 
-2. Run ```node index.js``` to host the Api.
-
-3. Send a POST request using Postman to the endpoint ```/api/notify```. The body should contain a JSON object with format as below
+4. Send a POST request using Postman to the endpoint ```/api/notify```. The body should contain a JSON object with format as below
 
 ```
 {"address":{"id":"APx0uDmLydT","channelId":"webchat","user":{"id":"acc9a91577564817bd9c8085827685cf"},"conversation":{"id":"acc9a91577564817bd9c8085827685cf"},"bot":{"id":"tchatbot@lEJMk-o5juY","name":"YourTrainBot"},"serviceUrl":"https://webchat.botframework.com/"},
